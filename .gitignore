@@ -4,6 +4,8 @@
 
 # IntelliJ project files
 .idea
+.idea/*
+.idea/
 *.iml
 out
 gen
@@ -13,3 +15,4 @@ gen
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
+.idea/vcs.xml
