@@ -1,0 +1,96 @@
+header{
+	.block-search{
+		margin-top: 30px;
+		margin-bottom: 15px;
+		.form-search{
+			border: 1px solid #e1e1e1;
+			display: table;
+			//width: 100%;
+			input.field-search{
+				padding: 10px;
+				border: none;
+				display: inline-block;
+				width: 200px;
+				height: 28px;
+			}
+			input.field-send{
+				display: inline-block;
+				background: url("../img/icon/icon-3.png") no-repeat center center #f8be22;
+				text-indent: -999999px;
+				width: 28px;
+				height: 28px;
+				border: none;
+			}
+		}
+	}
+	.block-workTime{
+		padding-left: 25px;
+		background: url("../img/icon/icon-1.png") no-repeat 3px 0 transparent;
+		font-size: 13px;
+		font-weight: 300;
+	}
+	.block-phone{
+		margin-top: 25px;
+		border-right:1px solid #e1e1e1;
+		margin-right: -10px;
+		a{
+			display: table;
+			padding-left: 20px;
+			background: url("../img/icon/icon-2.png") no-repeat 0 center transparent;
+			font-weight: 200;
+			font-size: 16px;
+			color: #707070;
+			span{
+				color: #212121;
+				font-size: 28px;
+				font-weight: 400;
+			}
+		}
+	}
+	.block-contact{
+		margin-top: 30px;
+		a{
+			font-size: 13px;
+			color: #707070;
+			font-weight: 200;
+			display: table;
+			padding-left: 15px;
+			margin-top: 10px;
+			&:first-child{
+				margin-top: 0;
+			}
+			&.adres{
+				background: url("../img/icon/icon-4.png") no-repeat 0 center transparent;
+			}
+			&.mail{
+				background: url("../img/icon/icon-5.png") no-repeat 0 center transparent;
+			}
+			&.skype{
+				background: url("../img/icon/icon-6.png") no-repeat 0 center transparent;
+			}
+		}
+	}
+	.block-miniCart{
+		margin-top: 50px;
+		#dropdownCart{
+			background: url("../img/icon/icon-7.png") no-repeat 0 0 transparent;
+			padding-left: 50px;
+			border: none;
+			text-align: left;
+			outline:none;
+			box-shadow:none;
+			span{
+				display: block;
+			}
+		}
+		.dropdown-menu{
+			.empty{
+				display: block;
+				color: #000;
+				font-size: 28px;
+				text-align: center;
+				padding: 10px;
+			}
+		}
+	}
+}
