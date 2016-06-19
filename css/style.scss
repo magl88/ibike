@@ -27,7 +27,7 @@ img{
 	min-height: 100%;
 }
 .content-wrapper{
-	padding-bottom: 280px;
+	padding-bottom: 215px;
 }
 
 //=======================================
@@ -78,12 +78,87 @@ header{
 		text-decoration: none;
 		margin: 10px 0;
 	}
+	.navbar-top{
+		margin-top: 10px;
+		background: #f5f5f5;
+	}
+	#menu-top{
+		position: relative;
+		padding: 0 25px;
+		.navbar-nav{
+			&>li{
+				position: inherit;
+
+				&>a{
+					color: #363636;
+					font-weight: bold;
+					font-size: 14px;
+					text-transform: uppercase;
+					padding: 20px 28px;
+					&:hover{
+						color: #f8be22;
+					}
+				}
+				&.active>a{
+					color: #f8be22;
+				}
+				.dropdown-menu{
+					left: -15px;
+					padding-top: 10px;
+					border: none;
+					box-shadow: none;
+					border-radius: 0;
+					.container{
+						background: #f5f5f5;
+						padding-top: 25px;
+						padding-bottom: 25px;
+					}
+					.title{
+						color: #363636;
+						font-weight: bold;
+						font-size: 14px;
+						text-transform: uppercase;
+						&:hover{
+							color: #f8be22;
+						}
+					}
+					.dropdown-menu-level2{
+						display: table;
+						float: left;
+						width: 19.5%;
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						li{
+							padding-left: 20px;
+							&:hover,
+							&.active{
+								background: url("../img/icon/icon-9.png") no-repeat 3px center transparent;
+								a{
+									color: #f8be22;
+								}
+							}
+							a{
+								color: #363636;
+								font-size: 14px;
+								font-weight: 200;
+								padding: 7px 0;
+								&:hover{
+									color: #f8be22;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 //=======================================
 footer{
-	background: #2e89c2;
+	background: #f5f5f5;
 	color: #fff;
-	height: 260px;
+	height: 185px;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
