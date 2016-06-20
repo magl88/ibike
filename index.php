@@ -1,26 +1,24 @@
 <?php include "header.php" ?>
-	<div class="container">
+	<div class="container block-brend hidden-xs">
 		<div class="row">
 			<div class="col-xs-12">
-				<div class="block-brend">
-					<div class="title">Бренды</div>
-					<ul class="brendul">
-						<li class="item">
-							<img class="img-responsive" src="/images/brend/brend-1.jpg" alt="brend"></li>
-						<li class="item">
-							<img class="img-responsive" src="/images/brend/brend-2.jpg" alt="brend"></li>
-						<li class="item">
-							<img class="img-responsive" src="/images/brend/brend-3.jpg" alt="brend"></li>
-						<li class="item">
-							<img class="img-responsive" src="/images/brend/brend-4.jpg" alt="brend"></li>
-						<li class="item">
-							<img class="img-responsive" src="/images/brend/brend-5.jpg" alt="brend"></li>
-						<li class="item">
-							<img class="img-responsive" src="/images/brend/brend-6.jpg" alt="brend"></li>
-						<li class="item">
-							<img class="img-responsive" src="/images/brend/brend-7.jpg" alt="brend"></li>
-					</ul>
-				</div>
+				<div class="title">Бренды</div>
+				<ul class="brendul">
+					<li class="item">
+						<img class="img-responsive" src="/images/brend/brend-1.jpg" alt="brend"></li>
+					<li class="item">
+						<img class="img-responsive" src="/images/brend/brend-2.jpg" alt="brend"></li>
+					<li class="item">
+						<img class="img-responsive" src="/images/brend/brend-3.jpg" alt="brend"></li>
+					<li class="item">
+						<img class="img-responsive" src="/images/brend/brend-4.jpg" alt="brend"></li>
+					<li class="item">
+						<img class="img-responsive" src="/images/brend/brend-5.jpg" alt="brend"></li>
+					<li class="item">
+						<img class="img-responsive" src="/images/brend/brend-6.jpg" alt="brend"></li>
+					<li class="item">
+						<img class="img-responsive" src="/images/brend/brend-7.jpg" alt="brend"></li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -181,10 +179,83 @@
 			</div>
 		</div>
 	</div>
-	<div class="container block-blog">
+	<div class="container block-blog hidden-xs">
 		<div class="title">Наш блог</div>
 		<div class="row">
-
+			<div class="col-md-5">
+				<div class="item-big">
+					<div class="name"><a href="#">Заголовок главного<br> поста блога текст про<br> велотрекинг</a></div>
+					<div class="data-mor">
+						<div class="data">12.03.2016</div>
+						<div class="more"><a href="#">Читать далее</a></div>
+					</div>
+					<div class="img-wrap">
+						<img src="/images/blog/blog-1.jpg" alt="blog">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7 row-item">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="item">
+							<div class="img-wrap"><img src="/images/blog/blog-2.png" alt="blog"></div>
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="item">
+							<div class="img-wrap"><img src="/images/blog/blog-3.png" alt="blog"></div>
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="item">
+							<div class="img-wrap"><img src="/images/blog/blog-4.png" alt="blog"></div>
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="item">
+							<div class="img-wrap"><img src="/images/blog/blog-5.png" alt="blog"></div>
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="item">
+							<div class="img-wrap"><img src="/images/blog/blog-6.png" alt="blog"></div>
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="item">
+							<div class="img-wrap"><img src="/images/blog/blog-7.png" alt="blog"></div>
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="container main-content">
@@ -221,6 +292,30 @@
 			<div class="col-lg-3 col-md-3 col-sm-6">
 				<div class="img-wrap"><img src="/images/prem/prem-4.png" alt="Преимущества"></div>
 				<div class="name"><strong class="blue">Благотворительность</strong> (Выступления в детских домах)</div>
+			</div>
+		</div>
+	</div>
+	<div class="container block-soc">
+		<div class="title">Мы в соцсетях</div>
+		<div class="row">
+			<div class="col-lg-3 col-sm-6">
+				<img src="/images/block-vk.png" alt="vk">
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<img src="/images/block-fb-gp.png" alt="fb">
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<img src="/images/block-tw.png" alt="tw">
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<div class="block-submit">
+					<div class="text">Подпишись и получи подарок а также учавствуй в акциях</div>
+					<form action="#">
+						<input type="email" class="field-mail" placeholder="Адрес электронной почты">
+						<input type="submit" class="field-submit" value="Подписаться">
+					</form>
+					<span>Вы можете отписаться в любой момент</span>
+				</div>
 			</div>
 		</div>
 	</div>
