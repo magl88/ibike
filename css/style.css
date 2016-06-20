@@ -686,6 +686,38 @@ header .block-miniCart {
         .block-prod-pager .pager-wrap ul li:hover span, .block-prod-pager .pager-wrap ul li:hover a, .block-prod-pager .pager-wrap ul li.active span, .block-prod-pager .pager-wrap ul li.active a {
           color: #fff; }
 
+.block-catalog-nav {
+  background: #e9e9e9;
+  padding: 20px 5px 20px 20px; }
+  .block-catalog-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .block-catalog-nav ul .active > a {
+      color: #f8be22; }
+  .block-catalog-nav a {
+    color: #363636; }
+    .block-catalog-nav a:hover {
+      color: #f8be22; }
+  .block-catalog-nav .sub-level > a {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase; }
+  .block-catalog-nav .level-1 > li {
+    margin-bottom: 10px; }
+    .block-catalog-nav .level-1 > li > a {
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase; }
+  .block-catalog-nav .level-2 > li a {
+    padding-left: 20px;
+    display: table; }
+  .block-catalog-nav .level-3 .active {
+    background: url("../img/icon/icon-9.png") no-repeat 0 center transparent; }
+  @media (max-width: 1024px) {
+    .block-catalog-nav {
+      padding-left: 10px; } }
+
 .main-catalog .item {
   border: 1px solid #e1e1e1;
   padding: 20px;
