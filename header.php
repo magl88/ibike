@@ -102,7 +102,7 @@
 				<div class="collapse navbar-collapse" id="menu-top">
 					<ul class="nav navbar-nav">
 						<li class="item "><a href="/">Главная</a></li>
-						<li class="item "><a href="#">Велосипеды</a></li>
+						<li class="item "><a href="/catalog.php">Велосипеды</a></li>
 						<li class="item active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BMX</a>
 						<div class="dropdown-menu dropdown-menu-left">
 							<div class="container">
