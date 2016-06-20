@@ -10,8 +10,7 @@ html, body {
 body {
   font-family: 'Roboto', sans-serif;
   color: #696969;
-  font-size: 14px;
-  font-weight: 100; }
+  font-size: 14px; }
 
 button:focus {
   outline: none; }
@@ -150,7 +149,7 @@ footer {
     footer ul a {
       color: #363636;
       font-size: 14px;
-      font-weight: 200; }
+      font-weight: 400; }
 
 .main-content {
   margin-top: 20px;
@@ -195,7 +194,7 @@ header .block-phone {
     display: table;
     padding-left: 20px;
     background: url("../img/icon/icon-2.png") no-repeat 0 center transparent;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     color: #707070; }
     header .block-phone a span {
@@ -207,7 +206,7 @@ header .block-contact {
   header .block-contact a {
     font-size: 13px;
     color: #707070;
-    font-weight: 200;
+    font-weight: 400;
     display: table;
     padding-left: 15px;
     margin-top: 10px; }
@@ -495,7 +494,7 @@ header .block-miniCart {
   background: url("../img/icon/icon-2.png") no-repeat 0 10px transparent; }
   .block-foot-cont .phone a {
     display: table;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     color: #707070; }
     .block-foot-cont .phone a span {
@@ -523,6 +522,43 @@ header .block-miniCart {
       font-size: 13px; }
     .block-breadcrumb ul li span {
       color: #363636; }
+
+.block-slide {
+  margin-bottom: 20px; }
+  .block-slide .carousel-control {
+    width: 44px;
+    height: 44px;
+    text-indent: -999999px;
+    position: absolute;
+    top: 50%; }
+    .block-slide .carousel-control.left {
+      background: url("../img/slide-left.png") no-repeat 0 0 transparent;
+      left: 20px; }
+    .block-slide .carousel-control.right {
+      background: url("../img/slide-right.png") no-repeat 0 0 transparent;
+      right: 20px; }
+  .block-slide .carousel-indicators li {
+    border: none;
+    width: 19px;
+    height: 19px;
+    border-radius: 0;
+    margin: 0;
+    background: url("../img/slide-point.png") no-repeat 0 0 transparent; }
+    .block-slide .carousel-indicators li.active {
+      background: url("../img/slide-point-a.png") no-repeat 0 0 transparent; }
+  .block-slide .carousel-caption {
+    left: 25%;
+    right: 25%;
+    text-align: left; }
+    .block-slide .carousel-caption .btn-more {
+      background: #f8be22;
+      color: #363636;
+      font-weight: bold;
+      padding: 5px 0;
+      text-decoration: none;
+      text-align: center;
+      width: 120px;
+      display: table; }
 
 .main-catalog .item {
   border: 1px solid #e1e1e1;
