@@ -34,7 +34,7 @@
 					</ul>
 					<ul class="nav navbar-nav navbar-right line-menu">
 						<li><a href="#" title="Отзывы">Отзывы</a></li>
-						<li><a href="#" title="О нас">О нас</a></li>
+						<li><a href="/cart.php" title="О нас">О нас</a></li>
 						<li><a href="/news-page.php" title="Блог">Блог <sup>2</sup></a></li>
 						<li><a href="/category-news.php" title="Новости">Новости <sup>5</sup></a></li>
 						<li><a href="#" title="Команда">Команда</a></li>

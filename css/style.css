@@ -788,6 +788,81 @@ header .block-miniCart {
       color: #363636;
       font-size: 13px; }
 
+.block-checkout {
+  margin-bottom: 30px; }
+  .block-checkout .table-checkout thead {
+    background: #f5f5f5;
+    font-weight: bold; }
+  .block-checkout .table-checkout tfoot {
+    color: #1e3071; }
+  .block-checkout .table-checkout .tr-title {
+    background: #f5f5f5;
+    font-weight: bold;
+    color: #696969; }
+  .block-checkout .table-checkout td {
+    border: none;
+    vertical-align: middle; }
+  .block-checkout .table-checkout .img-wrap {
+    width: 160px;
+    height: 110px;
+    border: 1px solid #e1e1e1;
+    background: #f5f5f5;
+    display: table; }
+    .block-checkout .table-checkout .img-wrap.no-img {
+      background: url("../img/no-img.jpg") no-repeat center center; }
+  .block-checkout .table-checkout .name {
+    color: #707070;
+    font-size: 16px; }
+  .block-checkout .table-checkout span {
+    color: #b9b9b9; }
+    .block-checkout .table-checkout span.sale {
+      text-decoration: line-through; }
+  .block-checkout .table-checkout .price {
+    color: #1e3071; }
+  .block-checkout .table-checkout .number {
+    color: #1e3071;
+    font-size: 30px; }
+    .block-checkout .table-checkout .number .plus,
+    .block-checkout .table-checkout .number .minus {
+      color: #1e3071;
+      display: inline-block;
+      font-weight: 400;
+      padding: 0 10px;
+      cursor: pointer; }
+    .block-checkout .table-checkout .number input {
+      text-align: center;
+      width: 60px; }
+  .block-checkout .box-buy {
+    text-align: right;
+    display: table;
+    float: right; }
+    .block-checkout .box-buy .field-cupon label {
+      font-size: 18px;
+      font-weight: normal; }
+    .block-checkout .box-buy .field-cupon input {
+      border: 1px solid #f8be22;
+      background: #fff;
+      width: 240px;
+      padding: 10px 10px; }
+    .block-checkout .box-buy .field-itog {
+      font-size: 13px;
+      font-weight: bold;
+      margin: 10px 0; }
+      .block-checkout .box-buy .field-itog span {
+        color: #1e3071;
+        font-size: 20px;
+        display: inline-block;
+        font-weight: normal; }
+    .block-checkout .box-buy .field-send .btn {
+      background: #f8be22;
+      color: #363636;
+      font-weight: bold;
+      padding: 5px 0;
+      text-decoration: none;
+      text-align: center;
+      width: 165px;
+      border-radius: 0; }
+
 .block-prod-pager .btn-wrap {
   display: table;
   text-align: center;

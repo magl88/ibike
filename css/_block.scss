@@ -721,3 +721,105 @@ header{
 	}
 }
 //==========================================
+.block-checkout{
+	margin-bottom: 30px;
+ .table-checkout{
+	 thead{
+		 background: #f5f5f5;
+		 font-weight: bold;
+	 }
+	 tfoot{
+		 color: #1e3071;
+	 }
+	 .tr-title{
+		 background: #f5f5f5;
+		 font-weight: bold;
+		 color: #696969;
+	 }
+	 td{
+		 border: none;
+		 vertical-align: middle;
+	 }
+	 .img-wrap{
+		 width: 160px;
+		 height: 110px;
+		 border: 1px solid #e1e1e1;
+		 background: #f5f5f5;
+		 display: table;
+		 &.no-img{
+			 background: url("../img/no-img.jpg") no-repeat center center ;
+		 }
+	 }
+	 .name{
+		 color: #707070;
+		 font-size: 16px;
+	 }
+	 span{
+		 color: #b9b9b9;
+		 &.sale{
+			 text-decoration: line-through;
+		 }
+	 }
+	 .price{
+		 color: #1e3071;
+	 }
+	 .number{
+		 color: #1e3071;
+		 font-size: 30px;
+		 .plus,
+		 .minus{
+			 color: #1e3071;
+			 display: inline-block;
+			 font-weight: 400;
+			 padding:  0 10px;
+			 cursor: pointer;
+		 }
+		 input{
+			 text-align: center;
+			 width: 60px;
+		 }
+	 }
+ }
+	.box-buy{
+		text-align: right;
+		display: table;
+		float: right;
+		.field-cupon{
+			label{
+				font-size: 18px;
+				font-weight: normal;
+			}
+			input{
+				border: 1px solid #f8be22;
+				background: #fff;
+				width: 240px;
+				//height: 40px;
+				padding: 10px 10px;
+			}
+		}
+		.field-itog{
+			font-size: 13px;
+			font-weight: bold;
+			margin: 10px 0;
+			span{
+				color: #1e3071;
+				font-size: 20px;
+				display: inline-block;
+				font-weight: normal;
+			}
+		}
+		.field-send{
+			.btn{
+				background: #f8be22;
+				color: #363636;
+				font-weight: bold;
+				padding: 5px 0;
+				text-decoration: none;
+				text-align: center;
+				width: 165px;
+				border-radius: 0;
+			}
+		}
+	}
+}
+//==========================================
