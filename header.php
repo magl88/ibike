@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ibike.by</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -158,7 +159,7 @@
 							</div>
 						</div>
 						</li>
-						<li class="item "><a href="#">Трюковые самокаты</a></li>
+						<li class="item "><a href="/product.php">Трюковые самокаты</a></li>
 						<li class="item "><a href="#">Защита</a></li>
 						<li class="item "><a href="#">аксессуары</a></li>
 						<li class="item "><a href="#">Бренды</a></li>

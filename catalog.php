@@ -190,7 +190,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<span class="sale ilabel">скидка</span>
 						<div class="name"><a href="#">Набор ключей SALT PRO</a></div>
 						<div class="img-wrap">
@@ -204,7 +204,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">Bmx звезда United Metro</a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-2.jpg" alt="prod"></a>
@@ -216,7 +216,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<span class="new ilabel">новинка</span>
 						<div class="name"><a href="#">BMX велосипед WeThePeople Curse </a></div>
 						<div class="img-wrap">
@@ -229,7 +229,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">BMX велосипед WeThePeople Curse </a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-3.jpg" alt="prod"></a>
@@ -241,7 +241,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">BMX втулка Eclat Dynamic.</a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-4.jpg" alt="prod"></a>
@@ -253,7 +253,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 
 						<div class="name"><a href="#">BMX велосипед WeThePeople Curse</a></div>
 						<div class="img-wrap">
@@ -266,7 +266,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">Bmx звезда United Metro</a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-2.jpg" alt="prod"></a>
@@ -278,7 +278,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">BMX велосипед WeThePeople Curse</a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-3.jpg" alt="prod"></a>
@@ -290,7 +290,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">BMX втулка Eclat Dynamic.</a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-1.jpg" alt="prod"></a>
@@ -302,7 +302,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">Bmx звезда United Metro</a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-2.jpg" alt="prod"></a>
@@ -314,7 +314,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">BMX велосипед WeThePeople Curse</a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-1.jpg" alt="prod"></a>
@@ -326,7 +326,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
+					<div class="itemProduct">
 						<div class="name"><a href="#">BMX вилка Eclat Stevie</a></div>
 						<div class="img-wrap">
 							<a href="#"><img src="/images/product/prod-1.jpg" alt="prod"></a>
