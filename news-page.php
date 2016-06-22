@@ -33,28 +33,28 @@
 					<div class="block-title">Похожие статьи</div>
 					<div class="item-wrap">
 						<div class="item">
-							<img src="/images/news/oser-1.jpg" alt="new">
+							<div class="img-wrap"><img src="/images/news/oser-1.jpg" alt="new"></div>
 							<div class="name-data">
 								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
 								<div class="data">12.03.2016</div>
 							</div>
 						</div>
 						<div class="item">
-							<img src="/images/news/oser-2.jpg" alt="new">
+							<div class="img-wrap"><img src="/images/news/oser-2.jpg" alt="new"></div>
 							<div class="name-data">
 								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
 								<div class="data">12.03.2016</div>
 							</div>
 						</div>
 						<div class="item">
-							<img src="/images/news/oser-1.jpg" alt="new">
+							<div class="img-wrap"><img src="/images/news/oser-1.jpg" alt="new"></div>
 							<div class="name-data">
 								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
 								<div class="data">12.03.2016</div>
 							</div>
 						</div>
 						<div class="item">
-							<img src="/images/news/oser-2.jpg" alt="new">
+							<div class="img-wrap"><img src="/images/news/oser-2.jpg" alt="new"></div>
 							<div class="name-data">
 								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
 								<div class="data">12.03.2016</div>

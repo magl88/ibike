@@ -628,6 +628,11 @@ header .block-miniCart {
   margin-top: 25px;
   display: table;
   border: 1px solid #e1e1e1; }
+  .block-simplePost .item .img-wrap {
+    text-align: center;
+    max-width: 320px; }
+  .block-simplePost .item img {
+    width: 100%; }
   @media (max-width: 768px) {
     .block-simplePost .item .img-wrap {
       text-align: center;
@@ -644,6 +649,142 @@ header .block-miniCart {
       font-size: 16px;
       font-weight: 600; }
     .block-simplePost .item .name-data .data {
+      color: #363636;
+      font-size: 13px; }
+
+.block-cat-pager {
+  margin-top: 30px; }
+  .block-cat-pager .btn-wrap {
+    display: table;
+    text-align: center;
+    width: 100%; }
+    .block-cat-pager .btn-wrap a {
+      background: #003371;
+      color: #fff;
+      width: 100px;
+      display: table;
+      text-align: center;
+      text-decoration: none;
+      margin: 0 auto;
+      padding: 5px 0; }
+  .block-cat-pager .pager-wrap {
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    .block-cat-pager .pager-wrap ul {
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+      display: table; }
+      .block-cat-pager .pager-wrap ul li {
+        display: inline-block;
+        margin: 0 2px; }
+        .block-cat-pager .pager-wrap ul li a,
+        .block-cat-pager .pager-wrap ul li span {
+          width: 28px;
+          display: table;
+          color: #696969;
+          text-decoration: none;
+          padding-top: 5px;
+          height: 28px;
+          text-align: center; }
+        .block-cat-pager .pager-wrap ul li:hover, .block-cat-pager .pager-wrap ul li.active {
+          background: #003371;
+          border-radius: 5px; }
+          .block-cat-pager .pager-wrap ul li:hover span, .block-cat-pager .pager-wrap ul li:hover a, .block-cat-pager .pager-wrap ul li.active span, .block-cat-pager .pager-wrap ul li.active a {
+            color: #fff; }
+
+.category-page .item-big {
+  position: relative;
+  display: table;
+  margin: 25px auto 20px;
+  border: 1px solid #e1e1e1; }
+  .category-page .item-big .name {
+    text-align: right;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    z-index: 10;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    background: rgba(255, 195, 34, 0.8); }
+    .category-page .item-big .name a {
+      text-align: right;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 400; }
+    @media (max-width: 768px) {
+      .category-page .item-big .name {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: inherit;
+        text-align: left;
+        top: inherit;
+        padding: 10px;
+        width: 100%;
+        background: rgba(255, 195, 34, 0.8); }
+        .category-page .item-big .name a {
+          text-transform: uppercase;
+          color: #fff;
+          font-size: 16px;
+          text-align: left;
+          font-weight: 600; } }
+  .category-page .item-big .data-mor {
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    z-index: 10; }
+    .category-page .item-big .data-mor .data {
+      background: url("../img/data-bg.png") no-repeat 0 0 transparent;
+      color: #fff;
+      display: inline-block;
+      width: 110px;
+      padding: 10px; }
+    .category-page .item-big .data-mor .more {
+      background: url("../img/link-bg.png") no-repeat 0 0 transparent;
+      display: inline-block;
+      width: 268px;
+      margin-left: -20px;
+      padding: 10px 0 10px 35px; }
+      .category-page .item-big .data-mor .more a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-right: 25px;
+        background: url("../img/arr.png") no-repeat right center transparent; }
+    @media (max-width: 768px) {
+      .category-page .item-big .data-mor {
+        display: none; } }
+.category-page .item {
+  position: relative;
+  margin-top: 25px;
+  display: table;
+  border: 1px solid #e1e1e1; }
+  .category-page .item .img-wrap {
+    text-align: center;
+    max-width: 360px; }
+  @media (max-width: 768px) {
+    .category-page .item .img-wrap {
+      text-align: center;
+      width: 100%; } }
+  .category-page .item .name-data {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background: rgba(255, 195, 34, 0.8); }
+    .category-page .item .name-data a {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600; }
+    .category-page .item .name-data .data {
       color: #363636;
       font-size: 13px; }
 
