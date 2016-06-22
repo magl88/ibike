@@ -623,6 +623,30 @@ header .block-miniCart {
   margin-bottom: 20px;
   border-top: 1px solid #e1e1e1; }
 
+.block-simplePost .item {
+  position: relative;
+  margin-top: 25px;
+  display: table;
+  border: 1px solid #e1e1e1; }
+  @media (max-width: 768px) {
+    .block-simplePost .item .img-wrap {
+      text-align: center;
+      width: 100%; } }
+  .block-simplePost .item .name-data {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background: rgba(255, 195, 34, 0.8); }
+    .block-simplePost .item .name-data a {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600; }
+    .block-simplePost .item .name-data .data {
+      color: #363636;
+      font-size: 13px; }
+
 .block-prod-pager .btn-wrap {
   display: table;
   text-align: center;

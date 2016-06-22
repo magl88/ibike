@@ -518,3 +518,35 @@ header{
 	border-top: 1px solid #e1e1e1;
 }
 //==========================================
+.block-simplePost{
+	.item{
+		position: relative;
+		margin-top: 25px;
+		display: table;
+		border: 1px solid #e1e1e1;
+		@media (max-width: 768px) {
+			.img-wrap{
+				text-align: center;
+				width: 100%;
+			}
+		}
+		.name-data{
+			position: absolute;
+			bottom: 0;
+			padding: 10px;
+			width: 100%;
+			background: rgba(255,195,34,.8);
+			a{
+				text-transform: uppercase;
+				color: #fff;
+				font-size: 16px;
+				font-weight: 600;
+			}
+			.data{
+				color: #363636;
+				font-size: 13px;
+			}
+		}
+	}
+}
+//==========================================

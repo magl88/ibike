@@ -28,6 +28,41 @@
 					<img src="/images/vk-comments.png" alt="vk">
 				</div>
 			</div>
+			<div class="col-sm-4">
+				<div class="block-simplePost">
+					<div class="block-title">Похожие статьи</div>
+					<div class="item-wrap">
+						<div class="item">
+							<img src="/images/news/oser-1.jpg" alt="new">
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="/images/news/oser-2.jpg" alt="new">
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="/images/news/oser-1.jpg" alt="new">
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="/images/news/oser-2.jpg" alt="new">
+							<div class="name-data">
+								<div class="name"><a href="#">Поступление велосипедов Stolen 2016 года!</a></div>
+								<div class="data">12.03.2016</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
