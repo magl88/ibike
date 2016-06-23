@@ -89,102 +89,13 @@
 					</div>
 					<a href="#item5" class="list-group-items" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="true">Аксессуары</a>
 					<div class="level-2 collapse in" id="item5" aria-expanded="true">
-						<a href="" class="list-group-item2">Наклейки</a>
+						<a href="" class=" active list-group-item2">Наклейки</a>
 						<a href="" class="list-group-item2">Фонарики</a>
 						<a href="" class="list-group-item2">Колонки</a>
 					</div>
 				</div>
 			</div>
-			<!--			============================================== -->
-			<nav class="block-catalog-nav navmenu navmenu-default" role="navigation">
-				<ul class="level-1">
-					<li class="active"><a href="#">Велосипеды</a>
-						<ul class="level-2">
-							<li class="active sub-level"><a href="#">Запчасти к велосипедам</a>
-								<ul class="level-3">
-									<li><a href="#">Звёзды</a></li>
-									<li class="active"><a href="#">Втулки</a></li>
-									<li><a href="#">Трещётки</a></li>
-									<li><a href="#">Рули</a></li>
-									<li><a href="#">Шины</a></li>
-								</ul>
-							</li>
-							<li class="sub-level"><a href="#">Велосипеды в СБОРЕ</a>
-								<ul class="level-3 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-									<li><a href="#">Горные</a></li>
-									<li><a href="#">Дорожные</a></li>
-									<li><a href="#">Подростковые</a></li>
-									<li><a href="#">Городские</a></li>
-									<li><a href="#">Туристические</a></li>
-									<li><a href="#">Шоссейные</a></li>
-									<li><a href="#">Детские</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="#">BMX</a>
-						<ul class="level-2">
-							<li><a href="#">BMX в СБОРЕ</a></li>
-							<li class="sub-level"><a href="#">Запчасти BMX</a>
-								<ul class="level-3">
-									<li><a href="#">Баренды</a></li>
-									<li><a href="#">Вилки</a></li>
-									<li><a href="#">Втулки передние</a></li>
-									<li><a href="#">Втулки задние</a></li>
-									<li><a href="#">Выноса</a></li>
-									<li><a href="#">Грипсы</a></li>
-									<li><a href="#">Запчасти для втулок</a></li>
-									<li><a href="#">Звёзды </a></li>
-									<li><a href="#">Камеры и ободные ленты</a></li>
-									<li><a href="#">Каретки</a></li>
-									<li><a href="#">Колёса</a></li>
-									<li><a href="#">Обода</a></li>
-									<li><a href="#">Пеги</a></li>
-									<li><a href="#">Педали</a></li>
-									<li><a href="#">Подседельные зажимы</a></li>
-									<li><a href="#">Подседельные штыри</a></li>
-									<li><a href="#">Покрышки</a></li>
-									<li><a href="#">Рамы</a></li>
-									<li><a href="#">Рулевые</a></li>
-									<li><a href="#">Рули</a></li>
-									<li><a href="#">Сёдла</a></li>
-									<li><a href="#">Спицы</a></li>
-									<li><a href="#">Хабгарды</a></li>
-									<li><a href="#">Цепи</a></li>
-									<li><a href="#">Шатуны</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="#">Трюковые самокаты</a>
-						<ul class="level-2">
-							<li><a href="#">Самокаты</a></li>
-							<li><a href="#">Запчасти</a></li>
-							<li><a href="#">Колёса</a></li>
-							<li><a href="#">Подшипники</a></li>
-							<li><a href="#">Рули</a></li>
-							<li><a href="#">Доски</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Защита</a>
-						<ul class="level-2">
-							<li><a href="#">Голень</a></li>
-							<li><a href="#">Колено</a></li>
-							<li><a href="#">Локоть</a></li>
-							<li><a href="#">Перчатки</a></li>
-							<li><a href="#">Шлем</a></li>
-							<li><a href="#">Щиколотка</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Аксессуары</a>
-						<ul class="level-2">
-							<li><a href="#">Наклейки</a></li>
-							<li><a href="#">Фонарики</a></li>
-							<li><a href="#">Колонки</a></li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
+
 		</div>
 		<div class="col-lg-9 col-md-9 main-catalog">
 			<div class="row block-sort">

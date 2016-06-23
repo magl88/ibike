@@ -10,6 +10,7 @@ jQuery.fn.equivalent = function (){
 // jQuery('footer .container .row>div').equivalent(); // вызов скрипта
 jQuery('.block-newProduct .item').equivalent(); // вызов скрипта
 jQuery('.itemProduct').equivalent(); // вызов скрипта
+// jQuery('#menu-top .row .dropdown-menu-level2').equivalent(); // вызов скрипта
 jQuery('.block-soc .row > div').equivalent(); // вызов скрипта
 // ========================================
 $('.bxslider').bxSlider({

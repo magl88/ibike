@@ -36,6 +36,7 @@ header{
 		background: #363636;
 		.navbar-toggle{
 			color: #fff;
+			float: left;
 			.icon-bar{
 				background: #666;
 			}
@@ -77,12 +78,24 @@ header{
 		display: table;
 		text-decoration: none;
 		margin: 10px 0;
+		@media (max-width:750px) {
+			border: none;
+			display: table;
+			margin-left:auto;
+			margin-right: auto;
+		}
 	}
 	.navbar-top{
 		margin-top: 10px;
 		background: #f5f5f5;
+		.navbar-toggle{
+			float: left;
+		}
 		.navbar-header .icon-bar{
 			background: #363636;
+		}
+		.navbar-nav{
+			margin: 0;
 		}
 	}
 	#menu-top{
@@ -90,6 +103,7 @@ header{
 		padding: 0 25px;
 		@media (max-width:768px) {padding: 0; }
 		.navbar-nav{
+
 			&>li{
 				position: inherit;
 				&.sale{
@@ -114,6 +128,7 @@ header{
 					font-size: 14px;
 					text-transform: uppercase;
 					padding: 20px 28px;
+
 					@media (max-width:1170px) {padding: 20px 17px; }
 					@media (max-width:768px) {padding: 20px 6px; }
 					&:hover{
@@ -150,8 +165,16 @@ header{
 						margin: 0;
 						padding: 0;
 						list-style: none;
+
+						@media (max-width:1170px) {
+							width: 33%;
+							margin-bottom: 10px;}
+						@media (max-width:768px) {
+							width: 50%;
+							margin-bottom: 10px;}
 						li{
 							padding-left: 20px;
+							display: table;
 							&:hover,
 							&.active{
 								background: url("../img/icon/icon-9.png") no-repeat 3px center transparent;

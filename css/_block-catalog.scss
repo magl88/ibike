@@ -192,6 +192,9 @@
 		text-transform: uppercase;
 		background: transparent;
 	}
+	.list-group-item2.active{
+		background: url("../img/icon/icon-9.png") no-repeat 0 center transparent;
+	}
 	.list-group-item2.item-sub{
 		display: block;
 		font-weight: bold;

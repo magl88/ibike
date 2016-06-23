@@ -103,7 +103,7 @@
 				<div class="collapse navbar-collapse" id="menu-top">
 					<ul class="nav navbar-nav">
 						<li class="item "><a href="/">Главная</a></li>
-						<li class="item "><a href="/catalog.php">Велосипеды</a></li>
+						<li class="item "><a href="#">Велосипеды</a></li>
 						<li class="item active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BMX</a>
 						<div class="dropdown-menu dropdown-menu-left">
 							<div class="container">
@@ -121,6 +121,7 @@
 												<li><a href="#">Втулки задние</a></li>
 												<li><a href="#">Выноса</a></li>
 												<li><a href="#">Грипсы</a></li>
+
 											</ul>
 											<ul class="dropdown-menu-level2">
 												<li><a href="#">Запчасти для втулок</a></li>
@@ -128,6 +129,7 @@
 												<li><a href="#">Камеры и ободные ленты</a></li>
 												<li><a href="#">Каретки</a></li>
 												<li><a href="#">Колёса</a></li>
+												<li><a href="#">Колодки</a></li>
 											</ul>
 											<ul class="dropdown-menu-level2">
 												<li><a href="#">Обода</a></li>
@@ -150,7 +152,6 @@
 												<li><a href="#">Хабгарды</a></li>
 											</ul>	
 										</div>
-										
 									</div>
 									<div class="col-lg-2">
 										<div class="block-topProd">
@@ -165,7 +166,7 @@
 							</div>
 						</div>
 						</li>
-						<li class="item "><a href="/product.php">Трюковые самокаты</a></li>
+						<li class="item "><a href="#">Трюковые самокаты</a></li>
 						<li class="item "><a href="#">Защита</a></li>
 						<li class="item "><a href="#">аксессуары</a></li>
 						<li class="item "><a href="#">Бренды</a></li>
