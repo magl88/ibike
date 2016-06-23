@@ -8,38 +8,94 @@
 	</div>
 	<div class="container page-catalog">
 		<div class="col-lg-3 col-md-3">
-
-	<!-- ==============================================
-	<div id="MainMenu">
-				<div class="list-group panel">
-					<a href="#item3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Трюковые самокаты</a>
-					<div class="collapse" id="item3">
-						<a class="list-group-item" href="">Самокаты</a>
-						<a class="list-group-item" href="">Запчасти</a>
-						<a class="list-group-item" href="">Колёса</a>
-						<a class="list-group-item" href="">Подшипники</a>
-						<a class="list-group-item" href="">Рули</a>
-						<a class="list-group-item" href="">Доски</a>
+			<!--	 ==============================================-->
+			<div id="MainMenu" class="block-catalogMenu" role="tablist" aria-multiselectable="true">
+				<div class="list-group">
+					<a href="#item1" class="list-group-items active" data-toggle="collapse" aria-expanded="true" data-parent="#MainMenu">Велосипеды</a>
+					<div class="collapse level-2 in" id="item1" aria-expanded="true">
+						<a href="#SubMenu1" class="item-sub list-group-item2 active" data-toggle="collapse" data-parent="#SubMenu1" aria-expanded="true">Запчасти к велосипедам</a>
+						<div class="list-group-submenu collapse in" id="SubMenu1" aria-expanded="true">
+							<a href="#" class="list-group-item3" data-parent="#SubMenu1">Звёзды</a>
+							<a href="#" class="list-group-item3 active" data-parent="#SubMenu1">Втулки</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu1">Трещётки</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu1">Рули</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu1">Шины</a>
+						</div>
+						<a href="#SubMenu2" class="item-sub list-group-item2" data-toggle="collapse" data-parent="#SubMenu2" aria-expanded="true">Велосипеды в СБОРЕ</a>
+						<div class="list-group-submenu collapse in" id="SubMenu2" aria-expanded="true">
+							<a href="#" class="list-group-item3" data-parent="#SubMenu2">Горные</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu2">Дорожные</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu2">Подростковые</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu2">Городские</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu2">Туристические</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu2">Шоссейные</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu2">Детские</a>
+						</div>
 					</div>
-					<a href="#item4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Защита</a>
-					<div class="collapse" id="item4">
-						<a href="" class="list-group-item">Голень</a>
-						<a href="" class="list-group-item">Колено</a>
-						<a href="" class="list-group-item">Локоть</a>
-						<a href="" class="list-group-item">Перчатки</a>
-						<a href="" class="list-group-item">Шлем</a>
-						<a href="" class="list-group-item">Щиколотка</a>
+					<a href="#item2" class="list-group-items" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="true">BMX</a>
+					<div class="level-2 collapse in" id="item2" aria-expanded="true">
+						<a href="#SubMenu3" class="item-sub list-group-item2" data-toggle="collapse" data-parent="#SubMenu3" aria-expanded="true">BMX в СБОРЕ</a>
+						<div class="list-group-submenu collapse in" id="SubMenu3" aria-expanded="true">
+							<a href="#" class="list-group-item3" data-parent="#SubMenu3">Пункт 1</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu3">Пункт 2</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu3">Пункт 3</a>
+						</div>
+						<a href="#SubMenu4" class="item-sub list-group-item2" data-toggle="collapse" data-parent="#SubMenu3" aria-expanded="true">ЗАПЧАСТИ BMX</a>
+						<div class="list-group-submenu collapse in" id="SubMenu4" aria-expanded="true">
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Баренды</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Вилки</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Втулки передние</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Втулки задние</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Выноса</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Грипсы</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Запчасти для втулок</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Звёзды </a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Камеры и ободные ленты</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Каретки</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Колёса</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Обода</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Пеги</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Педали</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Подседельные зажимы</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Подседельные штыри</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Покрышки</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Рамы</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Рулевые</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Рули</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Сёдла</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Спицы</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Хабгарды</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Цепи</a>
+							<a href="#" class="list-group-item3" data-parent="#SubMenu4">Шатуны</a>
+						</div>
 					</div>
-					<a href="#item5" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Аксессуары</a>
-					<div class="collapse" id="item5">
-						<a href="" class="list-group-item">Наклейки</a>
-						<a href="" class="list-group-item">Фонарики</a>
-						<a href="" class="list-group-item">Колонки</a>
+					<a href="#item3" class="list-group-items" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="true">Трюковые самокаты</a>
+					<div class="level-2 collapse in" id="item3" aria-expanded="true">
+						<a class="list-group-item2" href="">Самокаты</a>
+						<a class="list-group-item2" href="">Запчасти</a>
+						<a class="list-group-item2" href="">Колёса</a>
+						<a class="list-group-item2" href="">Подшипники</a>
+						<a class="list-group-item2" href="">Рули</a>
+						<a class="list-group-item2" href="">Доски</a>
+					</div>
+					<a href="#item4" class="list-group-items" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="true">Защита</a>
+					<div class="collapse in" id="item4" aria-expanded="true">
+						<a href="" class="list-group-item2">Голень</a>
+						<a href="" class="list-group-item2">Колено</a>
+						<a href="" class="list-group-item2">Локоть</a>
+						<a href="" class="list-group-item2">Перчатки</a>
+						<a href="" class="list-group-item2">Шлем</a>
+						<a href="" class="list-group-item2">Щиколотка</a>
+					</div>
+					<a href="#item5" class="list-group-items" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="true">Аксессуары</a>
+					<div class="level-2 collapse in" id="item5" aria-expanded="true">
+						<a href="" class="list-group-item2">Наклейки</a>
+						<a href="" class="list-group-item2">Фонарики</a>
+						<a href="" class="list-group-item2">Колонки</a>
 					</div>
 				</div>
 			</div>
-			============================================== -->
-
+			<!--			============================================== -->
 			<nav class="block-catalog-nav navmenu navmenu-default" role="navigation">
 				<ul class="level-1">
 					<li class="active"><a href="#">Велосипеды</a>
@@ -53,7 +109,7 @@
 									<li><a href="#">Шины</a></li>
 								</ul>
 							</li>
-							<li class="sub-level"><a href="#" >Велосипеды в СБОРЕ</a>
+							<li class="sub-level"><a href="#">Велосипеды в СБОРЕ</a>
 								<ul class="level-3 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<li><a href="#">Горные</a></li>
 									<li><a href="#">Дорожные</a></li>

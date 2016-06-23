@@ -424,7 +424,7 @@ header{
 //==========================================
 .itemProduct{
 	border: 1px solid #e1e1e1;
-	padding: 20px;
+	padding: 20px 15px;
 	margin: 3px 3px 25px 3px;
 	position: relative;
 	&:hover{
@@ -858,6 +858,21 @@ header{
 			width: 165px;
 			border-radius: 0;
 		}
+	}
+}
+//==========================================
+.block-topProd{
+	text-align: center;
+	.prodTitle{
+		color: #707070;
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	.price{
+		margin-top: 5px;
+		color: #1e3071;
+		font-size: 19px;
+		margin-bottom: 10px;
 	}
 }
 //==========================================

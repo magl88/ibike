@@ -33,11 +33,11 @@
 						<li><a href="#" title="Регистрация">Регистрация</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right line-menu">
-						<li><a href="#" title="Отзывы">Отзывы</a></li>
-						<li><a href="/cart.php" title="О нас">О нас</a></li>
-						<li><a href="/news-page.php" title="Блог">Блог <sup>2</sup></a></li>
+						<li><a href="/catalog.php" title="Отзывы">Отзывы</a></li>
+						<li><a href="/product.php" title="О нас">О нас</a></li>
+						<li><a href="/cart.php" title="Блог">Блог <sup>2</sup></a></li>
 						<li><a href="/category-news.php" title="Новости">Новости <sup>5</sup></a></li>
-						<li><a href="#" title="Команда">Команда</a></li>
+						<li><a href="/news-page.php" title="Команда">Команда</a></li>
 						<li><a href="/contact.php" title="Контакты">Контакты</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
@@ -153,7 +153,13 @@
 										
 									</div>
 									<div class="col-lg-2">
-										<div class="title">Bmx звезда United Metro</div>
+										<div class="block-topProd">
+											<div class="prodTitle">Bmx звезда United Metro</div>
+											<div class="img-wrap">
+												<img src="/images/product/prod-2.jpg" alt="prod">
+											</div>
+											<div class="price">Цена: 100 000 руб</div>
+										</div>
 									</div>
 								</div>
 							</div>
