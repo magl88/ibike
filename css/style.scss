@@ -257,7 +257,36 @@ a img.aligncenter {
 	margin-right: auto
 }
 //=======================================
+.box-cont{
+	padding-left: 20px;
+	margin-bottom: 20px;
+	&.box-phone{
+		background: url("../img/icon/icon-2.png") no-repeat 0 0 transparent;
+	}
+	&.box-grafik{
+		background: url("../img/icon/icon-1.png") no-repeat 0 0 transparent;
+	}
+	&.box-mail{
+		background: url("../img/icon/icon-5.png") no-repeat 0 0 transparent;
+	}
+	&.box-skype{
+		background: url("../img/icon/icon-6.png") no-repeat 0 0 transparent;
+	}
+	strong{
+		text-transform: uppercase;
+		display: block;
+	}
+	a{
+		color: #000;
+		text-decoration: underline;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+//=======================================
 @import  "_block.scss";
 @import  "_block-catalog";
 @import  "_block-product";
+//=======================================
 //=======================================

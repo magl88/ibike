@@ -38,7 +38,7 @@
 						<li><a href="/news-page.php" title="Блог">Блог <sup>2</sup></a></li>
 						<li><a href="/category-news.php" title="Новости">Новости <sup>5</sup></a></li>
 						<li><a href="#" title="Команда">Команда</a></li>
-						<li><a href="#" title="Контакты">Контакты</a></li>
+						<li><a href="/contact.php" title="Контакты">Контакты</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</nav>
@@ -71,7 +71,7 @@
 						<div class="col-lg-6 col-sm-6 visible-lg-block visible-sm">
 							<div class="block-contact">
 								<a href="#" class="adres">г.Минск, ул.Кузьмы Чорного 8</a>
-								<a href="mileto:bmxdelo@gmail.com" class="mail">bmxdelo@gmail.com</a>
+								<a href="mailto:bmxdelo@gmail.com" class="mail">bmxdelo@gmail.com</a>
 								<a href="skype:ibike.by?chat" class="skype">ibike.by</a>
 							</div>
 						</div>
